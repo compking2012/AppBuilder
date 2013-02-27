@@ -1,0 +1,1 @@
+"${AppViewEventType} #${AppViewComponentID}": "on${AppViewEventName}${AppViewComponentID}"

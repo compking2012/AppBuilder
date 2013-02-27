@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+html {
+	background: #FFFFFF;
+}
+
+body {
+	overflow: hidden;
+}
+
+body * {
+	cursor: pointer;
+}
+
+.dropshim {
+	outline: 2px dotted #00FF00;
+	opacity: 0.5;
+	z-index: 9999;
+}
+
+.sortshim {
+	outline: 2px dotted #00FF00;
+	display: inline-block;
+}
+
+.selection {
+	outline: 1px solid #FF0000;
+}
+
+.component {
+	/* Nothing, pure class identification */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  margin: 5px;
+  background-color: #999;
+  -webkit-border-radius: 5px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  height: 5px;
+  display: block;
+}

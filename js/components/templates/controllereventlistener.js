@@ -1,0 +1,1 @@
+this.${AppPageName}View.on("on${AppControllerEventName}", $.proxy(this.on${AppControllerEventName}, this));
