@@ -95,7 +95,7 @@ require.config({
 
 var configuration = {
 	passportServer: "https://passport.rdtest.baidu.com",
-	staticPath: "/static/appbuilder",
+	staticPath: "appbuilder",
 	//apiPath: "/static/restapi"
 	apiPath: "/appbuilder"
 };
